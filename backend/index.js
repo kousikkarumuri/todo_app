@@ -81,7 +81,7 @@ function addTodo(todoText, callback) {
 // GET all todos
 router.get('/todos', (req, res) => {
     getTodos((todos) => {
-        res.json(todos);
+        res.json(todose);
     });
 });
 
